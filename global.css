@@ -206,11 +206,20 @@ button:focus {
     padding-bottom: 200px;
 }
 
+.page_title {
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    .page_title {
+        max-width: 90%;
+    }
+}
+
 .page_title h1 {
     font-family: var(--text-font);
     color: var(--text-color);
     font-size: 50px;
     text-align: center;
     margin: 40px 0 0 0;
-    max-width: 90%;
 }
