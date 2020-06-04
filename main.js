@@ -7,3 +7,10 @@ const show_nav_bar = () => {
         nav_bar.style.display = "none"
     }
 }
+
+const resize = () => {
+    if (document.body.clientWidth > 800) {
+        nav_bar = document.getElementById('page_links_mobile');
+        nav_bar.style.display = "none"
+    }
+}
