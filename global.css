@@ -40,7 +40,13 @@ button:focus {
 
 .highlight {
     text-decoration: underline;
-    text-decoration-color: var(--highlight-color)
+    text-decoration-color: var(--text-color);
+    transition: .3s text-decoration-color;
+}
+
+.highlight:hover {
+    text-decoration-color: var(--highlight-color);
+    transition: text-decoration-color .3s;
 }
 
 .grayed {
