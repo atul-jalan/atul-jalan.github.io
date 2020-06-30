@@ -14,3 +14,10 @@ const resize = () => {
         nav_bar.style.display = "none"
     }
 }
+
+const mounted = () => {
+    if (document.body.clientWidth < 1050) {
+        ideal_lab_name = document.getElementById('ideal_lab_name')
+        ideal_lab_name.textContent = 'IDEAL Lab'
+    }
+}
