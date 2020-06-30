@@ -15,6 +15,12 @@
     text-align: center;
 }
 
+.personal_image {
+    border-radius: 50%;
+    width: 400px;
+    max-width: 80%;
+}
+
 .main_content h1 {
     font-family: var(--text-font);
     font-weight: 700;
@@ -46,5 +52,15 @@
 @media (min-width : 481px) {
     #contact_button {
         display: none;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .content {
+        justify-content: flex-start;
+        margin-top: 105px;
+        margin-bottom: 25px;
+        height: auto;
     }
 }
