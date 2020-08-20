@@ -68,7 +68,18 @@
                 <img src='../assets/nanomine.png' class='experience_image'></img>
                 
                 <h2 class='single_experience_subtitle'>SUMMARY</h2>
-                <p>I'm currently working here! Stay tuned for updates.</p>
+                <p>I significantly improved a suite of image processing tools created to help materials science researchers perform analysis on relevant images.</p>
+
+                <h2 class='single_experience_subtitle'>HIGHLIGHTS</h2>
+                <p>&#8226; Coordinated migration for image analysis alerts from email system to real time responses by integrating Socket.io into existing REST APIs and security infrastructure.</p>
+                <p>&#8226; Led overhaul of image upload and preprocessing flow to include custom image editing tools and metadata collection.</p>
+                <p>&#8226; Significantly increased productivity of researchers using image tools by adding support for multi-image analysis via zipped files.</p>
+                
+                <h2 class='single_experience_subtitle'>DESCRIPTION</h2>
+                <p>This past summer, I worked with a research lab to significantly improve their suite of image processing tools. The tools were missing crucial functionality that were downgrading the quality of the analysis researchers could perform on submitted images. Over 10 weeks, I transformed much of the existing infrastructure.</p>
+                <p>First, I worked to overhaul the user experience. In addition to a visual redesign of the image upload page, I added much needed frontend tools to gather metadata and edit images before sending in for analysis. First, I added an image cropping tool to help users crop out unwanted portions of images. Second, I added a scale bar calibration tool that allowed users to highlight the scale bar that was present in the images (many images were taken by microscopes and such) to extrapolate the full dimension of the images. Finally, I added a tool to help users invert images for certain use cases.</p>
+                <p>After completing the frontend work, the next big push was to enable real time responses from the server with the finished image analyses. Since many of the image analysis options took a long time to complete, the lab had opted to send emails to users with a link to the analyzed image. But, the lab wanted the option of real time responses on the same page for image analyses that completed quickly. Thus, I integrated Socket.io into existing RESTful APIs and security architecture to solve this problem, and kept a failsafe of emails in case the Socket.io connection was not able to be maintained.</p>
+                <p>Finally, throughout my internship, I worked to improve the quality of the code base that I worked with. Even though I wrote thousands of lines of code, I actually reduced the total amount of code on the website. I did this by being vigilant about deleting redudant code and implementing modular, reusable components whenever possible. In this way, hopefully whoever comes across the code next will have an easier time understanding and working with it.</p>
                 
             </div>
 
@@ -85,13 +96,12 @@
                 <img src='../assets/wal_logistics.gif' class='experience_image'></img>
                 
                 <h2 class='single_experience_subtitle'>SUMMARY</h2>
-                <p>I built a web-based database management application to help a local freight-forwarding company organize and quickly interact with its data on tens of thousands of shipments and payments.</p>
+                <p>I built a streamlined & modular cloud database management application for a local freight forwarding business to replace their legacy software.</p>
                 
                 <h2 class='single_experience_subtitle'>HIGHLIGHTS</h2>
-                <p>&#8226; Built a cloud database management application with support for custom nested data types, advanced search, and customer access portals to replace legacy freight forwarding software.</p>
-                <p>&#8226; Wrote Node.js scripts to automatically migrate and format 3 gigabytes of critical business data from legacy local databases to a MongoDB M10 Atlas cluster.</p>
-                <p>&#8226; Included support for admin controls to restrict employee access to various data tables and actions depending on an employee’s IP address, job title, and time of day.</p>
-                <p>&#8226; Designed an intuitive interface to interact with large databases, create custom web hooks, and generate customer billing reports using React.js, eliminating the need for costly employee onboarding procedures.</p>
+                <p>&#8226; Eliminated need for customers to call-in by creating a customer access portal through which they could view shipment status and file new shipments.</p>
+                <p>&#8226; Substantially improved productivity & onboarding time by designing an intuitive interface to manage large databases and setup automatic web hooks.</p>
+                <p>&#8226; Designed a business analytics dashboard to view custom business metrics and manage employee activity.</p>
                 
                 <h2 class='single_experience_subtitle'>DESCRIPTION</h2>
                 <p>In early December of 2019, I was contacted by a friend whose parent owned and operated a local freight forwarding business. Their parent's company had been using archaic software for over a decade and it was starting to have its effect.</p>
@@ -113,7 +123,7 @@
                 </div>
 
                 <h2 class='single_experience_subtitle'>SUMMARY</h2>
-                <p>I programmed a visual overhaul of the checkout page (1000+ daily visitors) for a food delivery service using React.js, Docker containers, and Git for version control.</p>
+                <p>I programmed visual overhaul of checkout page (1000+ daily visitors) for food delivery service in collaboration with the design team.</p>
 
             </div>
         </div>
